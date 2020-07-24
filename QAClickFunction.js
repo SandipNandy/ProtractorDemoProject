@@ -16,8 +16,14 @@ module.exports = {
             products.element(by.css('h4 a')).getText().then(function (text) {
                 for (var k = 1; k <= 4; k++) {
                     let str = Phone_ColumnNumber.phoneName(k);
+                   // browser.driver.sleep(1000);
                     if (text == Worksheet2[str + c].v) {
-                        products.element(by.css('button[class*="btn-info"')).click();
+                        var EC = protractor.ExpectedConditions;
+                        var CSSPATH=products.element(by.css('button[class*="btn-info"'));
+                        browser.wait(EC.presenceOf(CSSPATH), 5000).then(function(){
+                                 CSSPATH.click();
+                        });
+                        //products.element(by.css('button[class*="btn-info"')).click();
                     }
                 }
 
