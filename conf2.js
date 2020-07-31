@@ -15,10 +15,12 @@ var reporter = new AngularReporter({
 exports.config = {
     directConnect: true,
     // Capabilities to be passed to the webdriver instance.
-    Capabilities: {
-      
-      browserName: 'chrome',
-      //browserName:'Microsoft Edge'
+    capabilities: {
+      'browserName': 'firefox',
+      //'browserName': 'chrome'
+      'moz:firefoxOptions': {
+        'args': ['--safe-mode']
+      }
     },
   
     // Framework to use. Jasmine is recommended.

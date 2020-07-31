@@ -27,7 +27,7 @@ describe('Practice with QAClick Academy', function () {
     });
     //var i=a;
 
-    xit('Registraction Form Fill ups', function () {
+    it('Registraction Form Fill ups', function () {
         for (var i = a; i <= b; i++) {
             QAClickAcademy_POM.Enter_Username(Worksheet1['B' + i].v);
             // element(by.name("name")).sendKeys("Black Panther");
@@ -70,7 +70,7 @@ describe('Practice with QAClick Academy', function () {
         }
     });
 
-    xit('Validation of Error Messages', function () {
+    it('Validation of Error Messages', function () {
         //element(by.name("name")).clear();
         let a = QAClickAcademy_POM.Enter_UsernameValidation()
         a.sendKeys('abcd');
