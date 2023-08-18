@@ -8,9 +8,7 @@ var reporter = new AngularReporter({
     showTotalDurationIn:"header",
     totalDurationFormat:"hms"
   }
-
 }).getJasmine2Reporter();
-
 
 exports.config = {
     directConnect: true,
