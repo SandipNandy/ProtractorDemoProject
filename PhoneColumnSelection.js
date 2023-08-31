@@ -10,6 +10,7 @@ module.exports = {
         while (sp < b.length) {
             
             if (b[sp] > 25) {
+                
                 div = Math.floor(b[sp] / 26);
                 b[sp + 1] = div - 1;
                 b[sp] %= 26;
