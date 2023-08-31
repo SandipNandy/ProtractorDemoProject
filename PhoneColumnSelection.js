@@ -4,6 +4,7 @@ module.exports = {
         const charCode = 'A'.charCodeAt(0);
         
         var b = [a], sp, out, i, div;
+        
         sp = 0;
         while (sp < b.length) {
             if (b[sp] > 25) {
