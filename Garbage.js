@@ -28,6 +28,7 @@ it('Go inside Check out->Validate the Total Amount->Purchase by selecting countr
              var tt = text5.split(' ');
              
              var tts = parseInt(tt[1]);
+             
              console.log('tts:' + tts);
              add2(tts);
          })
