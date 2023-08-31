@@ -6,6 +6,7 @@ module.exports = {
         var b = [a], sp, out, i, div;
         
         sp = 0;
+        
         while (sp < b.length) {
             if (b[sp] > 25) {
                 div = Math.floor(b[sp] / 26);
