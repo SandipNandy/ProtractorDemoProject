@@ -5,7 +5,6 @@ it('Go inside Check out->Validate the Total Amount->Purchase by selecting countr
          console.log(text4);
          var rr = text4.split(' ');
          var rrs = parseInt(rr[1]);
-         
          console.log('rrs:' + rrs);
 
          add1(rrs)
