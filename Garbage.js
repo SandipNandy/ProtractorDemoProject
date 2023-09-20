@@ -11,7 +11,6 @@ it('Go inside Check out->Validate the Total Amount->Purchase by selecting countr
      })
 
      function add1(s) {
-
          element(by.xpath("//tr[2]//td[4]//strong[1]")).getText().then(function (text5) {
          
              console.log(text5);
