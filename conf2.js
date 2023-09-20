@@ -9,7 +9,6 @@ var reporter = new AngularReporter({
     totalDurationFormat:"hms"
   }
 }).getJasmine2Reporter();
-
 exports.config = {
     directConnect: true,
     // Capabilities to be passed to the webdriver instance.
