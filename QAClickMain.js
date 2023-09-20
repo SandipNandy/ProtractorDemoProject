@@ -17,7 +17,6 @@ describe('Practice with QAClick Academy', function () {
         // browser.get("https://qaclickacademy.github.io/protocommerce/");
         browser.manage().window().maximize();
         browser.getTitle().then(function (title) {
-
             console.log(title);
 
         });
