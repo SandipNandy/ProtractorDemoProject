@@ -11,7 +11,6 @@ var a = Worksheet1['J2'].v;
 var b = Worksheet1['K2'].v;
 
 
-
 describe('Practice with QAClick Academy', function () {
 
     it('Launch the URL into Browser', function () {
