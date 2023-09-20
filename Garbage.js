@@ -30,7 +30,6 @@ it('Go inside Check out->Validate the Total Amount->Purchase by selecting countr
          }
      }*/
     QAClickAcademy_Fun.Validation_Total_Amount(i);
-
     // element(by.className("btn btn-success")).click();
     QAClickAcademy_POM.Click_On_Checkout2();
     //element(by.css("input[id='country']")).sendKeys('india');
