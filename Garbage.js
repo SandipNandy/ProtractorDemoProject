@@ -40,6 +40,7 @@ it('Go inside Check out->Validate the Total Amount->Purchase by selecting countr
     
     //element(by.css("input[id='country']")).sendKeys('india');
     QAClickAcademy_POM.Select_Suggested_Country(Worksheet1['I' + i].v);
+    
     //browser.actions().mouseMove(element(by.className("suggestions"))).click().perform();
     let suggestion = QAClickAcademy_POM.Select_Suggested_Country();
     browser.actions().mouseMove(suggestion).click().perform();
