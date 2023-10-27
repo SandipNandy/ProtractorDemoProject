@@ -24,7 +24,6 @@ module.exports = {
             
             out = String.fromCharCode(charCode + b[i]) + out;
         }
-
         return out;
     },
 };
