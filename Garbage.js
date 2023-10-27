@@ -26,6 +26,7 @@ it('Go inside Check out->Validate the Total Amount->Purchase by selecting countr
              element(by.css("td[class='text-right'] strong")).getText().then(function (text6) {
                  var yy = text6.split(' ');
                  var yys = parseInt(yy[1]);
+                 
                  var e = s + t;
                  console.log('e:' + e);
                  expect(yys).toEqual(e);
