@@ -14,6 +14,7 @@ let QAClickAcedamyPom = function () {
      
  };
  let ErrorMessageUsernameEmail=element.all(by.css("[class='alert alert-danger']"));
+    
  this.Error_Message_Username=function(){
     return ErrorMessageUsernameEmail;
  };
