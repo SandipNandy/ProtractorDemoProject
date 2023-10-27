@@ -9,6 +9,7 @@ let QAClickAcedamyPom = function () {
      
  };
  this.Enter_UsernameValidation= function(){
+     
      return enterusername;
      
  };
