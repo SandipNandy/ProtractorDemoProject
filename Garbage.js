@@ -4,6 +4,7 @@ it('Go inside Check out->Validate the Total Amount->Purchase by selecting countr
     /* element(by.xpath("//tr[1]//td[4]//strong[1]")).getText().then(function (text4) {
          console.log(text4);
          var rr = text4.split(' ');
+         
          var rrs = parseInt(rr[1]);
          console.log('rrs:' + rrs);
          add1(rrs)
