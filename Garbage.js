@@ -7,7 +7,6 @@ it('Go inside Check out->Validate the Total Amount->Purchase by selecting countr
          var rrs = parseInt(rr[1]);
          console.log('rrs:' + rrs);
          add1(rrs)
-
      })
 
      function add1(s) {
