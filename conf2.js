@@ -5,6 +5,7 @@ var reporter = new AngularReporter({
   baseDirectory: './DemoProject/target1/screenshots',
   
   screenshotsSubfolder: 'images',
+  
   jsonsSubfolder: 'jsons',
   clientDefaults:{
     showTotalDurationIn:"header",
