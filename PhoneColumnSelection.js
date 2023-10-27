@@ -20,6 +20,7 @@ module.exports = {
 
         out = "";
         for (i = 0; i < b.length; i += 1) {
+            
             out = String.fromCharCode(charCode + b[i]) + out;
         }
 
