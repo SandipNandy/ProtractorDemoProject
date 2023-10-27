@@ -1,5 +1,6 @@
 let QAClickAcedamyPom = function () {
     this.Get = function (url) {
+        
        browser.get(url);
     };
  let enterusername =element(by.name("name"));
