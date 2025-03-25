@@ -21,6 +21,7 @@ let QAClickAcedamyPom = function () {
     return ErrorMessageUsernameEmail;
  };
  let enteremail =  element(by.css("input[name='email']"));
+    
  this.Enter_Email = function (email) {
 
     enteremail.sendKeys(email);;
