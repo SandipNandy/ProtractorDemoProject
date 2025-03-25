@@ -1,4 +1,5 @@
 let QAClickAcedamyPom = function () {
+    
     this.Get = function (url) {
         
        browser.get(url);
