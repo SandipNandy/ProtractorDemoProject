@@ -1,4 +1,5 @@
 import pytest
+
 import allure
 from locators.locators import UserAccountLocators, LogInLocators
 from pages.phptravels.login_page import LogInPage
