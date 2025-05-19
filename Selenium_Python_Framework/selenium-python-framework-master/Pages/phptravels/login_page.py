@@ -18,6 +18,7 @@ class LogInPage(PageBase):
     @allure.step("Login with email: '1'")
     def set_user_inputs(self, email, password):
         self.driver.find_element(*LogInLocators.email_input).click()
+        
         self.driver.find_element(*LogInLocators.email_input).send_keys(email)
         self.driver.find_element(*LogInLocators.password_input).click()
         self.driver.find_element(
