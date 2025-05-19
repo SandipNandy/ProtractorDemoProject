@@ -11,6 +11,7 @@ from pages.phptravels.login_page import LogInPage
 class TestLogIn:
 
     @allure.title("Login with valid data test")
+    
     @allure.description("This is test of login with valid data")
     def test_login_passed(self):
         log_in_page = LogInPage(self.driver)
