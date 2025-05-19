@@ -2,7 +2,6 @@ it('Go inside Check out->Validate the Total Amount->Purchase by selecting countr
     
     //element(by.css("li[class='nav-item active']")).click();
     QAClickAcademy_POM.Click_On_Checkout();
-    
     /* element(by.xpath("//tr[1]//td[4]//strong[1]")).getText().then(function (text4) {
          console.log(text4);
          var rr = text4.split(' ');
