@@ -3,7 +3,6 @@ from selenium.webdriver.common.keys import Keys
 from locators.locators import LogInLocators
 from base.page_base import PageBase
 
-
 class LogInPage(PageBase):
     def __init__(self, driver):
         super().__init__(driver)
