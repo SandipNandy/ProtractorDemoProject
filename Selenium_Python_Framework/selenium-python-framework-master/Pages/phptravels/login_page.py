@@ -23,6 +23,7 @@ class LogInPage(PageBase):
         self.driver.find_element(*LogInLocators.email_input).click()
         
         self.driver.find_element(*LogInLocators.email_input).send_keys(email)
+        
         self.driver.find_element(*LogInLocators.password_input).click()
         self.driver.find_element(
             *LogInLocators.password_input).send_keys(password, Keys.ENTER)
