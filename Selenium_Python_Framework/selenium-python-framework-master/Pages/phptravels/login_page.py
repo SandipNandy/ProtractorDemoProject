@@ -1,5 +1,4 @@
 import allure
-
 from selenium.webdriver.common.keys import Keys
 
 from locators.locators import LogInLocators
