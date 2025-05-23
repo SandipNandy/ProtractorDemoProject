@@ -9,7 +9,6 @@ let QAClickAcedamyPom = function () {
  };
  this.Enter_UsernameValidation= function(){
      return enterusername;
-     
  };
  let ErrorMessageUsernameEmail=element.all(by.css("[class='alert alert-danger']"));
  this.Error_Message_Username=function(){
