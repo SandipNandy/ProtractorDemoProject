@@ -1,5 +1,4 @@
 var AngularReporter = require('protractor-beautiful-reporter');
-
 var reporter = new AngularReporter({
   
   baseDirectory: './DemoProject/target1/screenshots',
