@@ -11,7 +11,6 @@ module.exports = {
 
     Select_Products: function (c) {
         element.all(by.tagName('app-card')).each(function (products) {
-            
             products.element(by.css('h4 a')).getText().then(function (text) {
                 for (var k = 1; k <= 4; k++) {
                     
