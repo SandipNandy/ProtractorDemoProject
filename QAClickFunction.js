@@ -6,7 +6,6 @@ let Phone_ColumnNumber = require('./PhoneColumnSelection.js');
 
 module.exports = {
     Select_Gender: function (a) {
-        
         element(by.cssContainingText("[id='exampleFormControlSelect1'] option", "" + a + "")).click();
     },
 
