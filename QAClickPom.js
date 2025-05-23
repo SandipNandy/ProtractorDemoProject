@@ -20,7 +20,6 @@ let QAClickAcedamyPom = function () {
 
  };
  let emailBoxValidation=element(by.css("input[name='email']"));
-    
  this.email_Box_Validation=function(){
    return emailBoxValidation;
  };
