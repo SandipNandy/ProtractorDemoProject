@@ -13,7 +13,6 @@ module.exports = {
         element.all(by.tagName('app-card')).each(function (products) {
             products.element(by.css('h4 a')).getText().then(function (text) {
                 for (var k = 1; k <= 4; k++) {
-                    
                     let str = Phone_ColumnNumber.phoneName(k);
                    
                     if (text == Worksheet2[str + c].v) {
