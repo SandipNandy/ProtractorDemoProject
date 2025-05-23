@@ -16,7 +16,6 @@ let QAClickAcedamyPom = function () {
  };
  let enteremail =  element(by.css("input[name='email']"));
  this.Enter_Email = function (email) {
-
     enteremail.sendKeys(email);;
 
  };
