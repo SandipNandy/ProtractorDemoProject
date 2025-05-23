@@ -4,7 +4,6 @@ let QAClickAcedamyPom = function () {
     };
  let enterusername =element(by.name("name"));
  this.Enter_Username = function (username) {
-     
     enterusername.sendKeys(username);
      
  };
